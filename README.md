@@ -39,7 +39,7 @@ The features below describe the current project. Follow the notes supplied with 
 | Global and per-game settings | Set shared defaults, then override supported options for individual editions. |
 | Graphics quality controls | Choose Very Low through Very High presets and supported Advanced adjustments for eligible Modern editions. |
 | Cabinet presentation | Use fullscreen display, customizable artwork and accent colors, and an optional marquee on a second display. |
-| LaunchBox and Big Box integration | Export game entries, artwork, and headless launch commands. Launch games from another frontend using saved Clubhouse settings. |
+| Auto-export to LaunchBox | Export all or installed games with supplied metadata, artwork assets, and ready-to-use headless launch commands. Clubhouse creates the entries and organizes them in LaunchBox for use with LaunchBox and Big Box. |
 | Backup and recovery | Back up and restore Modern databases individually or in batches, with recovery checks built into the workflow. |
 | Built-in diagnostics | Review setup readiness, check content, stop a background session, and prepare a support report from the app. |
 
@@ -112,7 +112,11 @@ Use **Per-game settings** for supported edition-specific overrides. Classic pict
 
 Clubhouse can run on its own or launch games through its headless entry point. Use **Headless launching** to obtain the command for your chosen game and saved settings.
 
-For LaunchBox, close LaunchBox and Big Box first, choose the LaunchBox folder, and use the export controls to add all or installed games. Review the overwrite/skip choice when matching entries already exist. Enable the optional second-screen marquee in the app's general settings if your cabinet has a marquee display.
+**Auto-export games to LaunchBox with artwork and metadata.** Close LaunchBox and Big Box, choose your LaunchBox folder in Clubhouse, and select **Export** for all games or installed games. Clubhouse automatically creates the game entries, supplies their metadata and headless launch commands, copies available artwork assets, and adds the games to the Arcade platform and GT playlist.
+
+Artwork includes clear logos, fanart backgrounds, marquees, posters, and available front-box and 3D-box images. The export handles the entries and assets together, so you can launch through LaunchBox or Big Box using your saved Clubhouse settings without building each entry by hand.
+
+Review the overwrite/skip choice when matching entries already exist. Enable the optional second-screen marquee in the app's general settings if your cabinet has a marquee display.
 
 ## Backups and updates
 
