@@ -23,15 +23,27 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 ## Download and release status
 
-**No public download has been published yet.** This is the official release-information and support repository. When a release is available, its package, checksum, requirements, installation instructions, and known issues will appear on the [Releases page](https://github.com/natemac/gtee-clubhouse-releases/releases).
+**Beta 1.0 is the first public beta for Windows 10/11 x64.**
+
+[Download the Beta 1.0 installer](https://github.com/natemac/gtee-clubhouse-releases/releases/download/v1.0.0-beta.1/GTee-Clubhouse-Beta-1.0-Setup.exe) · [Release notes, checksum and source archive](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v1.0.0-beta.1)
+
+Includes the new welcome screen and guided tour, Classic and Modern setup shortcuts, and the latest runtime and game-file validation fixes. Games, ROMs, CHDs and original databases are supplied separately. Read the [Beta 1.0 requirements and known issues](RELEASE-NOTES-BETA-1.0.md) before installing.
 
 The features below describe the current project. Follow the notes supplied with your installed version for its exact capabilities and compatibility.
+
+<details>
+<summary>View the Beta 1.0 welcome screen</summary>
+
+![Beta 1.0 welcome screen with guided tour and Classic and Modern setup shortcuts](docs/images/clubhouse-welcome.png)
+
+</details>
 
 ## Main features
 
 | Feature | What you can do |
 | --- | --- |
 | One visual library | Browse Classic and Modern editions with game logos, scenery, artwork, sorting, and installed-game filtering. |
+| Welcome and guided tour | Start with Classic or Modern setup shortcuts, or follow a 35-step tour of the app. Reopen the tour from General app settings. |
 | Zero manual database setup | Let Clubhouse prepare supported Modern games and create their private databases during game setup. No separate database-server installation or manual SQL configuration is needed for the normal setup flow. |
 | Add multiple games | Select complete game folders individually, select several at once, or scan a parent folder for supported editions. |
 | Classic games built in | Use the integrated MAME setup for the Classic library, with content checks, bezels, CRT effects, and other picture presets. Supply your own matching ROMs and CHDs. |
@@ -78,11 +90,13 @@ You do not need to install PostgreSQL separately, create database users, configu
 
 ### 1. Install Clubhouse
 
-Use the package and instructions attached to the release you are installing. Choose a writable local folder with a simple path, such as `D:\GTeeClubhouse`, and allow space for the application, your games, Play Cache, databases, and backups.
+Download and run **GTee-Clubhouse-Beta-1.0-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
 
-For a portable ZIP, extract the **entire** archive, open its **GTee Clubhouse** folder, and run **GTee Clubhouse.exe**. Keep all extracted software folders together. Do not launch from inside the ZIP or copy out just the executable.
+Allow at least 8 GB free for installation, plus room for game files, Play Cache, databases and backups. Setup also uses temporary space on the Windows drive. On exFAT, setup warns that temporary private sessions use Local AppData on the Windows drive; settings and saved databases remain in the chosen installation folder.
 
-Keep your previous installation and a backup of your progress before changing versions. Package layouts can change between Alpha and Beta; follow the new release's instructions instead of copying old internal folders over it.
+Open **GTee Clubhouse.exe** after setup. Fresh installations start fullscreen and show the welcome screen; choose **Guided Tour**, **Classic**, **Modern** or **Close**. Press **F11** to switch between fullscreen and a window. The runtime is bundled; no separate .NET or PostgreSQL installation is required.
+
+The accompanying corresponding-sources ZIP is for developers and license information. It is not a portable Clubhouse installation.
 
 ### 2. Add Modern games
 
@@ -94,8 +108,8 @@ Keep your previous installation and a backup of your progress before changing ve
 
 ### 3. Add Classic games
 
-1. Open **Settings > MAME / Classics** and locate the ROM directory shown by your installation.
-2. Follow its **ADD TO ROMS FOLDER.txt** instructions. Copy the required ROM ZIPs and place CHDs in their named game folders.
+1. Open **Settings > MAME / Classics** and choose your existing ROM collection using the ROMs folder field, or use the default directory shown there.
+2. Follow the default ROM folder's **ADD TO ROMS FOLDER.txt** instructions. Keep required ROM ZIPs and CHDs in their expected named game folders.
 3. Keep ROM ZIPs zipped, and include any required parent ROM or BIOS files.
 4. Select **Refresh** and check the ROM/CHD status. A green **Not required** entry is normal when that component is unnecessary.
 5. Select the game in **Library** and play.
@@ -120,6 +134,10 @@ Review the overwrite/skip choice when matching entries already exist. Enable the
 
 ## Backups and updates
 
+Run the installer again to repair missing or damaged software. A newer Beta installer updates the same Beta folder; early 1.0 refinements can also refresh a 1.0 installation. Back up important progress before maintenance.
+
+Uninstall through **Windows Settings > Apps > Installed apps**. Choose whether to keep your settings and databases or delete Clubhouse data and recovery backups. Original game folders outside the installation are preserved.
+
 Use **Backup Databases** before upgrades or major changes. **Restore Databases** lets you review matching backups before restoring them. Keep a separate copy of important backups outside the installation folder.
 
 Do not use **Remove game** as an update or repair shortcut: it can remove Clubhouse-owned progress, internal backups, and cache. Use the release's documented update or recovery process instead.
@@ -132,7 +150,7 @@ Do not use **Remove game** as an update or repair shortcut: it can remove Clubho
 - **Controls or graphics need adjustment:** Start with the documented defaults, check the selected input device and per-game overrides, and consult the release's known issues.
 - **You need help:** Read [SUPPORT.md](SUPPORT.md), check [existing issues](https://github.com/natemac/gtee-clubhouse-releases/issues), and include your Clubhouse version, Windows version, game edition, and steps to reproduce the problem.
 
-Support reports can be prepared in the app. Review attachments before sharing; keep private databases, game files, account information, and raw support archives out of public issues. Use a separately agreed private channel for support archives.
+Support reports can be prepared and sent from the app's Support page. Successful uploads show a confirmation; a selectable local ZIP path is available for manual sharing if upload fails. Keep private databases, game files, account information and raw support archives out of public issues.
 
 ## Support development
 
