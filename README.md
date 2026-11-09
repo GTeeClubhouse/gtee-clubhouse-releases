@@ -17,7 +17,7 @@
   <a href="https://github.com/natemac/gtee-clubhouse-releases/issues">Report an issue</a>
 </p>
 
-GTee Clubhouse brings decades of arcade golf into one visual library. Browse your games, add supported originals, configure your controls, and launch from a desktop or cabinet. From the original GT Golf through GT Fore!, GT Live, TITAN, and GT PGA TOUR 2027, Clubhouse brings game setup and everyday management into the same interface.
+GTee Clubhouse brings decades of arcade golf into one visual library. Browse your games, add supported originals, configure your controls, and launch from a desktop or cabinet. From the original GT Golf through GT Fore!, GT Live, TITAN, and more, Clubhouse brings game setup and everyday management into the same interface.
 
 ![GTee Clubhouse library with game artwork, edition tiles, and library navigation](docs/images/clubhouse-library.png)
 
@@ -53,7 +53,8 @@ Clubhouse brings the full span of GT history into one place. Its catalog covers 
 | Fore! | GT Fore!, Fore! 2002, Fore! 2003, Fore! 2004 Extra, Fore! 2005 Extra, and Fore! Complete |
 | Live | GT Live 2006–2025, with the combined 2023–2024 edition |
 | Live TITAN | GT Live 2021, 2022, 2023–2024, 2025, and 2026 |
-| PGA TOUR | GT PGA TOUR 2021, 2022, 2023–2024, 2025, 2026, and 2027 |
+
+**And more!** Check the release notes for the complete list of supported editions.
 
 Exact game versions matter. A catalog entry does not mean every revision or hardware configuration is qualified; check the applicable release notes for edition-specific requirements and known issues. Arcade Collection is also represented separately, with its own compatibility limits.
 
