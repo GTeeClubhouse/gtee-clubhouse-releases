@@ -19,7 +19,7 @@
 
 GTee Clubhouse brings decades of arcade golf into one visual library. Browse your games, add supported originals, configure your controls, and launch from a desktop or cabinet. From the original GT Golf through GT Fore!, GT Live, TITAN, and more, Clubhouse brings game setup and everyday management into the same interface.
 
-![GTee Clubhouse library with game artwork, edition tiles, and library navigation](docs/images/clubhouse-library.png)
+![GTee Clubhouse logo, main menu, and feature highlights over a tropical golf course](docs/images/github-social-preview-v3.jpg)
 
 ## Download and release status
 
