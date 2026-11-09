@@ -51,10 +51,9 @@ Clubhouse brings the full span of GT history into one place. Its catalog covers 
 | --- | --- |
 | Early Classics | GT Golf (1989 trackball edition), GT Golf II, GT 3D Golf, GT '97, GT '98, GT '99, GT 2K, and GT Classic |
 | Fore! | GT Fore!, Fore! 2002, Fore! 2003, Fore! 2004 Extra, Fore! 2005 Extra, and Fore! Complete |
-| Live | GT Live 2006–2025, with the combined 2023–2024 edition |
+| Live | GT Live 2006–2025 |
 | Live TITAN | GT Live 2021, 2022, 2023–2024, 2025, and 2026 |
-
-**And more!** Check the release notes for the complete list of supported editions.
+| Additional games | More supported games available through 2027. See the release notes for details. |
 
 Exact game versions matter. A catalog entry does not mean every revision or hardware configuration is qualified; check the applicable release notes for edition-specific requirements and known issues. Arcade Collection is also represented separately, with its own compatibility limits.
 
