@@ -17,7 +17,7 @@
   <a href="https://github.com/natemac/gtee-clubhouse-releases/issues">Report an issue</a>
 </p>
 
-GTee Clubhouse brings decades of arcade golf into one visual library. Browse your games, add supported originals, configure your controls, and launch from a desktop or cabinet. From the original GT Golf through GT Fore!, GT Live, TITAN, and more, Clubhouse brings game setup and everyday management into the same interface.
+GTee Clubhouse brings decades of arcade golf into one visual library. Browse your games, add supported originals, configure your controls, and launch from a desktop or cabinet. From the original GT Golf through GT Fore!, GT LIVE Nighthawk and Titan hardware, and more, Clubhouse brings game setup and everyday management into the same interface.
 
 ![GTee Clubhouse logo, main menu, and feature highlights over a tropical golf course](docs/images/github-social-preview-v3.jpg)
 
