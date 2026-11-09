@@ -6,13 +6,15 @@ First public beta — November 9, 2026. Release tag: `v0.1-beta`.
 
 ## What's included
 
-- New welcome screen with a 35-step guided tour and Classic/Modern setup shortcuts. The tour can be reopened from General app settings.
-- Fullscreen by default on fresh installations, controller navigation, shared and per-game controls, graphics options, artwork and optional second-screen marquee.
-- Integrated Classic runtime, an existing-ROM-folder selector and Modern content/database setup.
-- In-app support-report upload with confirmation and a local ZIP fallback.
-- Current 4K scaling, GT LIVE 2020 startup-path, GT LIVE 2019/2020 graphics-table and GT LIVE 2017 safe-shadow corrections.
-- Corrected PGA 2023–2024 validation metadata for the repaired game folder, including 29 added shader entries and 11 corrected entries. Select the repaired folder in Games & Databases; the installer does not patch or provide game files.
-- Installer preparation progress, repair, later-version updates and an uninstall choice to keep settings/databases or delete Clubhouse data.
+GTee Clubhouse is a Windows launcher that brings your Classic and Modern GT games into one visual library, with tools to set up your games, configure your controls and manage your collection.
+
+- **A visual game library:** Browse your collection with game artwork, filter installed games and launch from one place.
+- **A welcome screen and guided tour:** Get familiar with Clubhouse and follow shortcuts to Classic or Modern game setup.
+- **Modern game setup:** Add complete supported game folders and let Clubhouse check their files, prepare them for play and set up the required databases without a separate database-server installation.
+- **Classic game support:** Use the integrated MAME runtime with your own matching ROMs and CHDs, plus picture presets, bezels and trackball settings.
+- **Controls and display settings:** Configure keyboard, controller and supported mouse or USB trackball input, with shared and per-game options, fullscreen presentation and an optional second-screen marquee.
+- **LaunchBox and Big Box integration:** Export game entries, artwork and launch commands for use with your cabinet frontend.
+- **Database backup and maintenance:** Back up and restore Modern game databases, repair the application with the installer, and choose whether to keep your settings and databases when uninstalling.
 
 ## Requirements and installation
 
