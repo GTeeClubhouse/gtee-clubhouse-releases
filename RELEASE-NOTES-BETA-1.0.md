@@ -1,8 +1,8 @@
-# GTee Clubhouse Beta 1.0
+# GTee Clubhouse 0.1 Beta
 
-First public beta — November 9, 2026. Release tag: `v1.0.0-beta.1`; application version: `1.0.0`.
+First public beta — November 9, 2026. Release tag: `v0.1-beta`.
 
-[Download and checksums](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v1.0.0-beta.1)
+[Download and checksums](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v0.1-beta)
 
 ## What's included
 

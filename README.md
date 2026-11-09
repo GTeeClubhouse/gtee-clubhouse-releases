@@ -23,18 +23,18 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 ## Download and release status
 
-**Beta 1.0 is the first public beta for Windows 10/11 x64.**
+**0.1 Beta is the first public beta for Windows 10/11 x64.**
 
-[Download the Beta 1.0 installer](https://github.com/natemac/gtee-clubhouse-releases/releases/download/v1.0.0-beta.1/GTee-Clubhouse-Beta-1.0-Setup.exe) · [Release notes, checksum and source archive](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v1.0.0-beta.1)
+[Download the 0.1 Beta installer](https://github.com/natemac/gtee-clubhouse-releases/releases/download/v0.1-beta/GTee-Clubhouse-Beta-1.0-Setup.exe) · [Release notes, checksum and source archive](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v0.1-beta)
 
-Includes the new welcome screen and guided tour, Classic and Modern setup shortcuts, and the latest runtime and game-file validation fixes. Games, ROMs, CHDs and original databases are supplied separately. Read the [Beta 1.0 requirements and known issues](RELEASE-NOTES-BETA-1.0.md) before installing.
+Includes the new welcome screen and guided tour, Classic and Modern setup shortcuts, and the latest runtime and game-file validation fixes. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.1 Beta requirements and known issues](RELEASE-NOTES-BETA-1.0.md) before installing.
 
 The features below describe the current project. Follow the notes supplied with your installed version for its exact capabilities and compatibility.
 
 <details>
-<summary>View the Beta 1.0 welcome screen</summary>
+<summary>View the 0.1 Beta welcome screen</summary>
 
-![Beta 1.0 welcome screen with guided tour and Classic and Modern setup shortcuts](docs/images/clubhouse-welcome.png)
+![0.1 Beta welcome screen with guided tour and Classic and Modern setup shortcuts](docs/images/clubhouse-welcome.png)
 
 </details>
 
