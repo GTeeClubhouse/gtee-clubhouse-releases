@@ -21,8 +21,6 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 ![GTee Clubhouse library with game artwork, edition tiles, and library navigation](docs/images/clubhouse-library.png)
 
-*Interface preview from the walkthrough. Screenshots show an earlier development build; available editions and controls vary by version.*
-
 ## Download and release status
 
 **No public download has been published yet.** This is the official release-information and support repository. When a release is available, its package, checksum, requirements, installation instructions, and known issues will appear on the [Releases page](https://github.com/natemac/gtee-clubhouse-releases/releases).
