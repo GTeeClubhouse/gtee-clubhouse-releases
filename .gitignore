@@ -6,3 +6,7 @@
 !.gitignore
 !.gitattributes
 !.github/ISSUE_TEMPLATE/*.md
+!docs/images/gtee-clubhouse-logo.png
+!docs/images/clubhouse-library.png
+!docs/images/clubhouse-games-and-databases.png
+!docs/images/support-ko-fi.svg

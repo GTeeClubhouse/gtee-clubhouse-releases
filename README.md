@@ -1,21 +1,139 @@
-# GTee Clubhouse
+<p align="center">
+  <a href="https://ko-fi.com/N4N32AC2LY"><img src="docs/images/support-ko-fi.svg" alt="Support me on Ko-fi" width="220" height="42"></a>
+</p>
 
-Release downloads, release notes and user support for GTee Clubhouse.
+<p align="center">
+  <img src="docs/images/gtee-clubhouse-logo.png" alt="GTee Clubhouse" width="600">
+</p>
 
-GTee Clubhouse is a Windows launcher for supported GT editions, such as **GT Live 2020**, and the configured arcade library.
+<h1 align="center">GTee Clubhouse</h1>
 
-## Downloads
+<p align="center"><strong>Your GT collection, from 1989 to 2027. One Windows launcher. Zero manual database setup.</strong></p>
 
-No release package has been published in this repository yet. When a release is available, its download, checksum, requirements and installation instructions will appear on the [Releases page](https://github.com/natemac/gtee-clubhouse-releases/releases).
+<p align="center">
+  <a href="https://github.com/natemac/gtee-clubhouse-releases/releases">Releases</a> &nbsp; | &nbsp;
+  <a href="#getting-started">Setup guide</a> &nbsp; | &nbsp;
+  <a href="SUPPORT.md">Support</a> &nbsp; | &nbsp;
+  <a href="https://github.com/natemac/gtee-clubhouse-releases/issues">Report an issue</a>
+</p>
 
-Use the installation instructions included with the specific release. Development checkpoints and historical screenshots are not release announcements.
+GTee Clubhouse brings decades of arcade golf into one visual library. Browse your games, add supported originals, configure your controls, and launch from a desktop or cabinet. From the original GT Golf through GT Fore!, GT Live, TITAN, and GT PGA TOUR 2027, Clubhouse brings game setup and everyday management into the same interface.
 
-## Support
+![GTee Clubhouse library with game artwork, edition tiles, and library navigation](docs/images/clubhouse-library.png)
 
-Read [SUPPORT.md](SUPPORT.md) before opening an issue. Include the application version, the affected edition and clear steps to reproduce the problem. Remove personal information from anything you attach.
+*Interface preview from the walkthrough. Screenshots show an earlier development build; available editions and controls vary by version.*
 
-## Repository contents
+## Download and release status
 
-This repository contains public release information. Development source history is maintained separately. Original game content, ROMs, databases, saved progress and personal configuration are not distributed here.
+**No public download has been published yet.** This is the official release-information and support repository. When a release is available, its package, checksum, requirements, installation instructions, and known issues will appear on the [Releases page](https://github.com/natemac/gtee-clubhouse-releases/releases).
 
-Third-party notices and any required corresponding source accompany the applicable release. See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+The features below describe the current project. Follow the notes supplied with your installed version for its exact capabilities and compatibility.
+
+## Main features
+
+| Feature | What you can do |
+| --- | --- |
+| One visual library | Browse Classic and Modern editions with game logos, scenery, artwork, sorting, and installed-game filtering. |
+| Zero manual database setup | Let Clubhouse prepare supported Modern games and create their private databases during game setup. No separate database-server installation or manual SQL configuration is needed for the normal setup flow. |
+| Add multiple games | Select complete game folders individually, select several at once, or scan a parent folder for supported editions. |
+| Classic games built in | Use the integrated MAME setup for the Classic library, with content checks, bezels, CRT effects, and other picture presets. Supply your own matching ROMs and CHDs. |
+| Controls for your setup | Configure keyboard, Xbox/XInput, and DirectInput button mappings, plus supported mouse or USB trackball input. Navigate the launcher with a controller. |
+| Global and per-game settings | Set shared defaults, then override supported options for individual editions. |
+| Graphics quality controls | Choose Very Low through Very High presets and supported Advanced adjustments for eligible Modern editions. |
+| Cabinet presentation | Use fullscreen display, customizable artwork and accent colors, and an optional marquee on a second display. |
+| LaunchBox and Big Box integration | Export game entries, artwork, and headless launch commands. Launch games from another frontend using saved Clubhouse settings. |
+| Backup and recovery | Back up and restore Modern databases individually or in batches, with recovery checks built into the workflow. |
+| Built-in diagnostics | Review setup readiness, check content, stop a background session, and prepare a support report from the app. |
+
+## A library spanning 1989–2027
+
+Clubhouse brings the full span of GT history into one place. Its catalog covers these families:
+
+| Family | Editions |
+| --- | --- |
+| Early Classics | GT Golf (1989 trackball edition), GT Golf II, GT 3D Golf, GT '97, GT '98, GT '99, GT 2K, and GT Classic |
+| Fore! | GT Fore!, Fore! 2002, Fore! 2003, Fore! 2004 Extra, Fore! 2005 Extra, and Fore! Complete |
+| Live | GT Live 2006–2025, with the combined 2023–2024 edition |
+| Live TITAN | GT Live 2021, 2022, 2023–2024, 2025, and 2026 |
+| PGA TOUR | GT PGA TOUR 2021, 2022, 2023–2024, 2025, 2026, and 2027 |
+
+Exact game versions matter. A catalog entry does not mean every revision or hardware configuration is qualified; check the applicable release notes for edition-specific requirements and known issues. Arcade Collection is also represented separately, with its own compatibility limits.
+
+## Zero manual database setup
+
+Adding a supported Modern game handles the routine preparation for you. Clubhouse checks the selected original files, prepares its Play Cache, and imports the required original database backup into a private database when one is missing.
+
+You do not need to install PostgreSQL separately, create database users, configure a system service, or run SQL commands. The required database runtime is managed by Clubhouse, with separate state for each edition.
+
+**Zero manual setup does not mean the games run without databases.** Provide the complete supported original game folder, including its required backup and supporting files. A lone `game.bin` is not enough. Clubhouse keeps its managed runtime state separate from the original game content.
+
+<details>
+<summary>View the Games &amp; Databases interface</summary>
+
+![Games and Databases settings showing Add games, readiness columns, and database backup and restore actions](docs/images/clubhouse-games-and-databases.png)
+
+*Earlier development interface shown for orientation.*
+
+</details>
+
+## Getting started
+
+### 1. Install Clubhouse
+
+Use the package and instructions attached to the release you are installing. Choose a writable local folder with a simple path, such as `D:\GTeeClubhouse`, and allow space for the application, your games, Play Cache, databases, and backups.
+
+For a portable ZIP, extract the **entire** archive, open its **GTee Clubhouse** folder, and run **GTee Clubhouse.exe**. Keep all extracted software folders together. Do not launch from inside the ZIP or copy out just the executable.
+
+Keep your previous installation and a backup of your progress before changing versions. Package layouts can change between Alpha and Beta; follow the new release's instructions instead of copying old internal folders over it.
+
+### 2. Add Modern games
+
+1. Open **Settings > Games & Databases**.
+2. Select **Add games** and choose your complete supported original game folder. Use Ctrl/Shift to select multiple folders, or scan their parent folder.
+3. Let Clubhouse finish content verification, Play Cache preparation, and database setup. The first setup can take time, depending on the game and drive.
+4. Review the reported status. Resolve missing or incompatible files before continuing.
+5. Return to **Library**, select the edition, and choose **Play** when it is ready.
+
+### 3. Add Classic games
+
+1. Open **Settings > MAME / Classics** and locate the ROM directory shown by your installation.
+2. Follow its **ADD TO ROMS FOLDER.txt** instructions. Copy the required ROM ZIPs and place CHDs in their named game folders.
+3. Keep ROM ZIPs zipped, and include any required parent ROM or BIOS files.
+4. Select **Refresh** and check the ROM/CHD status. A green **Not required** entry is normal when that component is unnecessary.
+5. Select the game in **Library** and play.
+
+The Classic runtime and its routine configuration are integrated into Clubhouse; you do not need to set up a separate MAME frontend.
+
+### 4. Set your controls and display
+
+Use **Input & navigation** for launcher navigation, **Global Game Controls** for shared button mappings, and **Global Game Settings** for display and game defaults. Choose your trackball device or the appropriate mouse input mode, then adjust sensitivity to suit your setup.
+
+Use **Per-game settings** for supported edition-specific overrides. Classic picture filters, bezels, sensitivity, and volume are available under **MAME / Classics**. Modern graphics controls depend on the selected edition.
+
+### 5. Connect your cabinet frontend
+
+Clubhouse can run on its own or launch games through its headless entry point. Use **Headless launching** to obtain the command for your chosen game and saved settings.
+
+For LaunchBox, close LaunchBox and Big Box first, choose the LaunchBox folder, and use the export controls to add all or installed games. Review the overwrite/skip choice when matching entries already exist. Enable the optional second-screen marquee in the app's general settings if your cabinet has a marquee display.
+
+## Backups and updates
+
+Use **Backup Databases** before upgrades or major changes. **Restore Databases** lets you review matching backups before restoring them. Keep a separate copy of important backups outside the installation folder.
+
+Do not use **Remove game** as an update or repair shortcut: it can remove Clubhouse-owned progress, internal backups, and cache. Use the release's documented update or recovery process instead.
+
+## Troubleshooting and support
+
+- **A Modern game will not add:** Confirm that the full original folder matches a supported version and includes the required database backup and supporting content.
+- **A Classic game is unavailable:** Check its ROM, parent/BIOS, and CHD requirements in **MAME / Classics**, then select **Refresh**.
+- **Play is blocked by a previous session:** Open **Session & diagnostics**, use **Stop background session**, and let cleanup finish before trying again.
+- **Controls or graphics need adjustment:** Start with the documented defaults, check the selected input device and per-game overrides, and consult the release's known issues.
+- **You need help:** Read [SUPPORT.md](SUPPORT.md), check [existing issues](https://github.com/natemac/gtee-clubhouse-releases/issues), and include your Clubhouse version, Windows version, game edition, and steps to reproduce the problem.
+
+Support reports can be prepared in the app. Review attachments before sharing; keep private databases, game files, account information, and raw support archives out of public issues. Use a separately agreed private channel for support archives.
+
+## Support development
+
+If Clubhouse makes your collection easier to enjoy, you can [support development on Ko-fi](https://ko-fi.com/N4N32AC2LY).
+
+This repository contains public release documentation and support information. Game content, ROMs, CHDs, original databases, saved progress, and personal configuration are supplied separately and are not distributed here. Third-party notices and required corresponding source accompany the applicable release; see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
