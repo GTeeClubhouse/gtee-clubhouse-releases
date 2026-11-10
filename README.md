@@ -21,6 +21,10 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 ![GTee Clubhouse logo, main menu, and feature highlights over a tropical golf course](docs/images/github-social-preview-v3.jpg)
 
+## Disclaimer
+
+GTee Clubhouse is a launcher for legally owned backup copies of your own software and games. No Incredible Technologies (IT) game software, game source code, or game data is distributed with this launcher, and no GT game source code is used to build it. We do not provide any games or game data. All backups are supplied by the user and must correspond to software and games they legally own; users are responsible for ensuring they have the right to use their backups.
+
 ## Download and release status
 
 **0.1 Beta is a prerelease for Windows 10/11 x64.**
@@ -144,10 +148,6 @@ Do not use **Remove game** as an update or repair shortcut: it can remove Clubho
 - **You need help:** Read [SUPPORT.md](SUPPORT.md), check [existing issues](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/issues), and include your Clubhouse version, Windows version, game edition, and steps to reproduce the problem.
 
 Support reports can be prepared and sent from the app's Support page. Successful uploads show a confirmation; a selectable local ZIP path is available for manual sharing if upload fails. Keep private databases, game files, account information and raw support archives out of public issues.
-
-## Disclaimer
-
-GTee Clubhouse is a launcher for legally owned backup copies of your own software and games. No Incredible Technologies (IT) game software, game source code, or game data is distributed with this launcher, and no GT game source code is used to build it. We do not provide any games or game data. All backups are supplied by the user and must correspond to software and games they legally own; users are responsible for ensuring they have the right to use their backups.
 
 ## Buy me Coffee
 
