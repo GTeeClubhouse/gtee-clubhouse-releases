@@ -33,7 +33,7 @@ GTee Clubhouse is a launcher for legally owned backup copies of your own softwar
 
 Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, and controls for your mouse or trackball. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.1 Beta requirements and installation notes](RELEASE-NOTES-BETA-1.0.md) before installing.
 
-The features below describe the current project. Follow the notes supplied with your installed version for its exact capabilities and compatibility.
+Start with the [setup guide below](#getting-started) to install Clubhouse and add your games.
 
 ## Main features
 
@@ -87,13 +87,13 @@ You do not need to install PostgreSQL separately, create database users, configu
 
 ### 1. Install Clubhouse
 
-Download and run **GTee-Clubhouse-0.1-Beta-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
+Download and run **GTee-Clubhouse-0.1-Beta-Setup.exe**. Choose an empty, writable folder for Clubhouse and follow the installer prompts.
 
 Allow at least 8 GB free for installation, plus room for game files, Play Cache, databases and backups. Setup also uses temporary space on the Windows drive. On exFAT, setup warns that temporary private sessions use Local AppData on the Windows drive; settings and saved databases remain in the chosen installation folder.
 
 Open **GTee Clubhouse.exe** after setup. Fresh installations start fullscreen and show the welcome screen; choose **Guided Tour**, **Classic**, **Modern** or **Close**. Press **F11** to switch between fullscreen and a window. The runtime is bundled; no separate .NET or PostgreSQL installation is required.
 
-The accompanying corresponding-sources ZIP is for developers and license information. It is not a portable Clubhouse installation.
+You only need the Setup.exe file to install Clubhouse. The corresponding-sources ZIP contains third-party source and license material; it is not needed to install or play.
 
 ### 2. Add Modern games
 
@@ -131,7 +131,7 @@ Review the overwrite/skip choice when matching entries already exist. Enable the
 
 ## Backups and updates
 
-Run the installer again to repair missing or damaged software. A newer Beta installer updates the same Beta folder. Back up important progress before maintenance.
+If Clubhouse needs repair, close it and your games, then run the installer again and select the same installation folder. Back up important progress before maintenance.
 
 Uninstall through **Windows Settings > Apps > Installed apps**. Choose whether to keep your settings and databases or delete Clubhouse data and recovery backups. Original game folders outside the installation are preserved.
 
