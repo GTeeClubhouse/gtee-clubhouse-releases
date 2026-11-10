@@ -25,7 +25,7 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 **0.1 Beta is the first public beta for Windows 10/11 x64.**
 
-[Download the 0.1 Beta installer](https://github.com/natemac/gtee-clubhouse-releases/releases/download/v0.1-beta/GTee-Clubhouse-Beta-1.0-Setup.exe) · [Release notes, checksum and source archive](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v0.1-beta)
+[Download the 0.1 Beta installer](https://github.com/natemac/gtee-clubhouse-releases/releases/download/v0.1-beta/GTee-Clubhouse-0.1-Beta-Launch-Fix-Setup.exe) · [Release notes, checksum and source archive](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v0.1-beta)
 
 Includes the new welcome screen and guided tour, Classic and Modern setup shortcuts, and the latest runtime and game-file validation fixes. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.1 Beta requirements and known issues](RELEASE-NOTES-BETA-1.0.md) before installing.
 
@@ -90,7 +90,7 @@ You do not need to install PostgreSQL separately, create database users, configu
 
 ### 1. Install Clubhouse
 
-Download and run **GTee-Clubhouse-Beta-1.0-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
+Download and run **GTee-Clubhouse-0.1-Beta-Launch-Fix-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
 
 Allow at least 8 GB free for installation, plus room for game files, Play Cache, databases and backups. Setup also uses temporary space on the Windows drive. On exFAT, setup warns that temporary private sessions use Local AppData on the Windows drive; settings and saved databases remain in the chosen installation folder.
 
@@ -134,7 +134,7 @@ Review the overwrite/skip choice when matching entries already exist. Enable the
 
 ## Backups and updates
 
-Run the installer again to repair missing or damaged software. A newer Beta installer updates the same Beta folder; early 1.0 refinements can also refresh a 1.0 installation. Back up important progress before maintenance.
+Run the installer again to repair missing or damaged software. A newer Beta installer updates the same Beta folder; this corrected 0.1 Beta can also repair the earlier Beta installation. Back up important progress before maintenance.
 
 Uninstall through **Windows Settings > Apps > Installed apps**. Choose whether to keep your settings and databases or delete Clubhouse data and recovery backups. Original game folders outside the installation are preserved.
 
