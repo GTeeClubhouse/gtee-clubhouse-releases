@@ -11,10 +11,10 @@
 <p align="center"><strong>Your GT collection, from 1989 to 2027. One Windows launcher. Zero manual database setup.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/natemac/gtee-clubhouse-releases/releases">Releases</a> &nbsp; | &nbsp;
+  <a href="https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases">Releases</a> &nbsp; | &nbsp;
   <a href="#getting-started">Setup guide</a> &nbsp; | &nbsp;
   <a href="SUPPORT.md">Support</a> &nbsp; | &nbsp;
-  <a href="https://github.com/natemac/gtee-clubhouse-releases/issues">Report an issue</a>
+  <a href="https://github.com/GTeeClubhouse/gtee-clubhouse-releases/issues">Report an issue</a>
 </p>
 
 GTee Clubhouse brings decades of arcade golf into one visual library. Browse your games, add supported originals, configure your controls, and launch from a desktop or cabinet. From the original GT Golf through GT Fore!, GT LIVE Nighthawk and GT LIVE Titan hardware, and more, Clubhouse brings game setup and everyday management into the same interface.
@@ -25,9 +25,9 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 **0.1 Beta is the first public beta for Windows 10/11 x64.**
 
-[Download the 0.1 Beta installer](https://github.com/natemac/gtee-clubhouse-releases/releases/download/v0.1-beta/GTee-Clubhouse-0.1-Beta-Launch-Fix-Setup.exe) · [Release notes, checksum and source archive](https://github.com/natemac/gtee-clubhouse-releases/releases/tag/v0.1-beta)
+[Download the 0.1 Beta installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.1-beta/GTee-Clubhouse-0.1-Beta-Course-Fix-Setup.exe) · [Release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.1-beta)
 
-Includes the new welcome screen and guided tour, Classic and Modern setup shortcuts, and the latest runtime and game-file validation fixes. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.1 Beta requirements and known issues](RELEASE-NOTES-BETA-1.0.md) before installing.
+Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, all ten new PGA 2023–2024 course entries, mouse/session-exit corrections, and the latest support fixes. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.1 Beta requirements and installation notes](RELEASE-NOTES-BETA-1.0.md) before installing.
 
 The features below describe the current project. Follow the notes supplied with your installed version for its exact capabilities and compatibility.
 
@@ -90,7 +90,7 @@ You do not need to install PostgreSQL separately, create database users, configu
 
 ### 1. Install Clubhouse
 
-Download and run **GTee-Clubhouse-0.1-Beta-Launch-Fix-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
+Download and run **GTee-Clubhouse-0.1-Beta-Course-Fix-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
 
 Allow at least 8 GB free for installation, plus room for game files, Play Cache, databases and backups. Setup also uses temporary space on the Windows drive. On exFAT, setup warns that temporary private sessions use Local AppData on the Windows drive; settings and saved databases remain in the chosen installation folder.
 
@@ -147,8 +147,8 @@ Do not use **Remove game** as an update or repair shortcut: it can remove Clubho
 - **A Modern game will not add:** Confirm that the full original folder matches a supported version and includes the required database backup and supporting content.
 - **A Classic game is unavailable:** Check its ROM, parent/BIOS, and CHD requirements in **MAME / Classics**, then select **Refresh**.
 - **Play is blocked by a previous session:** Open **Session & diagnostics**, use **Stop background session**, and let cleanup finish before trying again.
-- **Controls or graphics need adjustment:** Start with the documented defaults, check the selected input device and per-game overrides, and consult the release's known issues.
-- **You need help:** Read [SUPPORT.md](SUPPORT.md), check [existing issues](https://github.com/natemac/gtee-clubhouse-releases/issues), and include your Clubhouse version, Windows version, game edition, and steps to reproduce the problem.
+- **Controls or graphics need adjustment:** Start with the documented defaults, check the selected input device and per-game overrides, and include your edition and settings when reporting a problem.
+- **You need help:** Read [SUPPORT.md](SUPPORT.md), check [existing issues](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/issues), and include your Clubhouse version, Windows version, game edition, and steps to reproduce the problem.
 
 Support reports can be prepared and sent from the app's Support page. Successful uploads show a confirmation; a selectable local ZIP path is available for manual sharing if upload fails. Keep private databases, game files, account information and raw support archives out of public issues.
 
