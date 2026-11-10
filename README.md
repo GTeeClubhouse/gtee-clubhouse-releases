@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ko-fi.com/N4N32AC2LY"><img src="docs/images/support-ko-fi.svg" alt="Support me on Ko-fi" width="220" height="42"></a>
+  <a href="https://ko-fi.com/N4N32AC2LY"><img src="docs/images/buy-me-coffee.svg" alt="Buy me Coffee" width="220" height="42"></a>
 </p>
 
 <p align="center">
@@ -152,8 +152,8 @@ Do not use **Remove game** as an update or repair shortcut: it can remove Clubho
 
 Support reports can be prepared and sent from the app's Support page. Successful uploads show a confirmation; a selectable local ZIP path is available for manual sharing if upload fails. Keep private databases, game files, account information and raw support archives out of public issues.
 
-## Support development
+## Buy me Coffee
 
-If Clubhouse makes your collection easier to enjoy, you can [support development on Ko-fi](https://ko-fi.com/N4N32AC2LY).
+[Buy me Coffee](https://ko-fi.com/N4N32AC2LY)
 
 This repository contains public release documentation and support information. Game content, ROMs, CHDs, original databases, saved progress, and personal configuration are supplied separately and are not distributed here. Third-party notices and required corresponding source accompany the applicable release; see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
