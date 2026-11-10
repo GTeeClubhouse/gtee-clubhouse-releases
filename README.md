@@ -8,7 +8,7 @@
 
 <h1 align="center">GTee Clubhouse</h1>
 
-<p align="center"><strong>Your GT collection, from 1989 to 2027. One Windows launcher. Zero manual database setup.</strong></p>
+<p align="center"><strong>Your GT collection from 1989 and on!</strong></p>
 
 <p align="center">
   <a href="https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases">Releases</a> &nbsp; | &nbsp;
@@ -23,20 +23,13 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 ## Download and release status
 
-**0.1 Beta is the first public beta for Windows 10/11 x64.**
+**0.1 Beta is a prerelease for Windows 10/11 x64.**
 
-[Download the 0.1 Beta installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.1-beta/GTee-Clubhouse-0.1-Beta-Course-Fix-Setup.exe) · [Release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.1-beta)
+[Download the 0.1 Beta installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.1-beta/GTee-Clubhouse-0.1-Beta-Setup.exe) · [Release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.1-beta)
 
-Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, all ten new PGA 2023–2024 course entries, mouse/session-exit corrections, and the latest support fixes. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.1 Beta requirements and installation notes](RELEASE-NOTES-BETA-1.0.md) before installing.
+Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, and controls for your mouse or trackball. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.1 Beta requirements and installation notes](RELEASE-NOTES-BETA-1.0.md) before installing.
 
 The features below describe the current project. Follow the notes supplied with your installed version for its exact capabilities and compatibility.
-
-<details>
-<summary>View the 0.1 Beta welcome screen</summary>
-
-![0.1 Beta welcome screen with guided tour and Classic and Modern setup shortcuts](docs/images/clubhouse-welcome.png)
-
-</details>
 
 ## Main features
 
@@ -55,7 +48,7 @@ The features below describe the current project. Follow the notes supplied with 
 | Backup and recovery | Back up and restore Modern databases individually or in batches, with recovery checks built into the workflow. |
 | Built-in diagnostics | Review setup readiness, check content, stop a background session, and prepare a support report from the app. |
 
-## A library spanning 1989–2027
+## Able to play your full Library.
 
 Clubhouse brings the full span of GT history into one place. Its catalog covers these families:
 
@@ -67,7 +60,7 @@ Clubhouse brings the full span of GT history into one place. Its catalog covers 
 | GT LIVE Titan | GT LIVE Titan 2021, 2022, 2023–2024, 2025, and 2026 |
 | Additional games | More supported games available through 2027. See the release notes for details. |
 
-Exact game versions matter. A catalog entry does not mean every revision or hardware configuration is qualified; check the applicable release notes for edition-specific requirements and known issues. Arcade Collection is also represented separately, with its own compatibility limits.
+Exact game versions matter. A catalog entry does not mean every revision or hardware configuration is qualified; check the applicable release notes for edition-specific requirements and known issues.
 
 ## Zero manual database setup
 
@@ -90,7 +83,7 @@ You do not need to install PostgreSQL separately, create database users, configu
 
 ### 1. Install Clubhouse
 
-Download and run **GTee-Clubhouse-0.1-Beta-Course-Fix-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
+Download and run **GTee-Clubhouse-0.1-Beta-Setup.exe**. Close Clubhouse and all games before installing. Choose an empty writable folder for a fresh install, or your existing Beta folder to refresh or repair its software while retaining settings and saved progress. Alpha installations are not converted; install Beta into a separate folder.
 
 Allow at least 8 GB free for installation, plus room for game files, Play Cache, databases and backups. Setup also uses temporary space on the Windows drive. On exFAT, setup warns that temporary private sessions use Local AppData on the Windows drive; settings and saved databases remain in the chosen installation folder.
 
@@ -134,7 +127,7 @@ Review the overwrite/skip choice when matching entries already exist. Enable the
 
 ## Backups and updates
 
-Run the installer again to repair missing or damaged software. A newer Beta installer updates the same Beta folder; this corrected 0.1 Beta can also repair the earlier Beta installation. Back up important progress before maintenance.
+Run the installer again to repair missing or damaged software. A newer Beta installer updates the same Beta folder. Back up important progress before maintenance.
 
 Uninstall through **Windows Settings > Apps > Installed apps**. Choose whether to keep your settings and databases or delete Clubhouse data and recovery backups. Original game folders outside the installation are preserved.
 
@@ -151,6 +144,10 @@ Do not use **Remove game** as an update or repair shortcut: it can remove Clubho
 - **You need help:** Read [SUPPORT.md](SUPPORT.md), check [existing issues](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/issues), and include your Clubhouse version, Windows version, game edition, and steps to reproduce the problem.
 
 Support reports can be prepared and sent from the app's Support page. Successful uploads show a confirmation; a selectable local ZIP path is available for manual sharing if upload fails. Keep private databases, game files, account information and raw support archives out of public issues.
+
+## Disclaimer
+
+GTee Clubhouse is a launcher for legally owned backup copies of your own software and games. No Incredible Technologies (IT) game software, game source code, or game data is distributed with this launcher, and no GT game source code is used to build it. We do not provide any games or game data. All backups are supplied by the user and must correspond to software and games they legally own; users are responsible for ensuring they have the right to use their backups.
 
 ## Buy me Coffee
 
