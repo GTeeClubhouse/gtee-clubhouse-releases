@@ -8,7 +8,7 @@
 
 <h1 align="center">GTee Clubhouse</h1>
 
-<p align="center"><strong>Your GT collection from 1989 and on!</strong></p>
+<p align="center"><strong>Your GT collection starting in 1989</strong></p>
 
 <p align="center">
   <a href="https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases">Releases</a> &nbsp; | &nbsp;
