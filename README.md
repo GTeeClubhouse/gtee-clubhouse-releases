@@ -105,6 +105,8 @@ You only need the Setup.exe file to install Clubhouse. The corresponding-sources
 
 ### 3. Add Classic games
 
+Use your legally owned backups from the **MAME 0.289 ROM set**, with the matching CHDs where required. Clubhouse bundles MAME 0.289; ROM sets from other versions may not match its content checks. Keep ROM ZIPs zipped and retain the required parent/BIOS files.
+
 1. Open **Settings > MAME / Classics** and choose your existing ROM collection using the ROMs folder field, or use the default directory shown there.
 2. Follow the default ROM folder's **ADD TO ROMS FOLDER.txt** instructions. Keep required ROM ZIPs and CHDs in their expected named game folders.
 3. Keep ROM ZIPs zipped, and include any required parent ROM or BIOS files.
