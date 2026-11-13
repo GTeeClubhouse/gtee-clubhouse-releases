@@ -97,9 +97,9 @@ Download and run **GTee-Clubhouse-0.2-Beta-Setup.exe**. Choose an empty, writabl
 
 Allow at least 8 GB free for installation, plus room for game files, Play Cache, databases and backups. Setup also uses temporary space on the Windows drive. On exFAT, setup warns that temporary private sessions use Local AppData on the Windows drive; settings and saved databases remain in the chosen installation folder.
 
-Open **GTee Clubhouse.exe** after setup. Fresh installations start fullscreen and show the welcome screen; choose **Guided Tour**, **Classic**, **Modern** or **Close**. Press **F11** to switch between fullscreen and a window. The runtime is bundled; no separate .NET or PostgreSQL installation is required.
+Open **GTee Clubhouse.exe** after setup. Fresh installations start fullscreen and show the welcome screen; choose **Guided Tour**, **Classic**, **Modern** or **Close**. The runtime is bundled; no separate .NET or PostgreSQL installation is required.
 
-You only need the Setup.exe file to install Clubhouse. The corresponding-sources ZIP contains third-party source and license material; it is not needed to install or play.
+You only need the Setup.exe file to install Clubhouse.
 
 ### 2. Add Modern games
 
@@ -139,11 +139,11 @@ Review the overwrite/skip choice when matching entries already exist. Enable the
 
 ## Backups and updates
 
-If Clubhouse needs repair, close it and your games, then run the installer again and select the same installation folder. Back up important progress before maintenance.
+If Clubhouse needs repair, close it and your games, then run the installer again and select the same installation folder.
 
 Uninstall through **Windows Settings > Apps > Installed apps**. Choose whether to keep your settings and databases or delete Clubhouse data and recovery backups. Original game folders outside the installation are preserved.
 
-Use **Backup Databases** before upgrades or major changes. **Restore Databases** lets you review matching backups before restoring them. Keep a separate copy of important backups outside the installation folder.
+**Restore Databases** lets you review matching backups before restoring them.
 
 Do not use **Remove game** as an update or repair shortcut: it can remove Clubhouse-owned progress, internal backups, and cache. Use the release's documented update or recovery process instead.
 
