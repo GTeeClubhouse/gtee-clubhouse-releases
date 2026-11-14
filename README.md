@@ -33,6 +33,8 @@ GTee Clubhouse is a launcher for legally owned backup copies of your own softwar
 
 Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, and controls for your mouse or trackball. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.2 Beta requirements and installation notes](RELEASE-NOTES-BETA-0.2.md) before installing.
 
+The refreshed 0.2 installer fixes updates blocked by previously completed game sessions and adds more detailed support logging for stutter and installation failures.
+
 Start with the [setup guide below](#getting-started) to install Clubhouse and add your games.
 
 ## Hardware requirements

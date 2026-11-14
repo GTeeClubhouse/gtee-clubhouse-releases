@@ -15,6 +15,12 @@ GTee Clubhouse is a launcher for legally owned backup copies of your own softwar
 
 ## Changes in 0.2
 
+- Fixed an update failure caused by previously completed game sessions. Setup now shows the current installation error instead of an older result.
+- Added stutter diagnostics with a readable performance summary, launch display/power information, read-only NVIDIA policy observations, and per-thread CPU evidence.
+- Support reports now include the game's own log files from your most recent sessions, plus database setup errors, so most problems can be diagnosed from one report. Your Windows user folder name is removed, and game files, saved databases and passwords are never included.
+- When a game ends, Clubhouse shows a small reminder to send your log. Please send one after every session, good or bad; it is how problems get found and fixed. You can turn the reminder off in Settings > Support.
+- If a custom game resolution is larger than your display, Clubhouse now fits the game to the display when you press Play instead of showing only part of it. Reports also record your display resolution next to the game resolution.
+- Old working files from earlier game sessions are removed automatically to save disk space; game logs are kept in the Logs folder.
 - Expanded support reports include actual OpenGL renderer information, installed graphics-driver inventory, system and display details, and more log history. Reports retain detected failure context and identify omitted evidence.
 - Database and permissions failures provide more useful diagnostic detail, including the failing setup step and original error. A corrected cleanup path prevents a secondary failure from hiding the initial problem.
 - Incompatible or incomplete Modern game imports give clearer file-size and matching-version guidance.
