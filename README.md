@@ -27,13 +27,13 @@ GTee Clubhouse is a launcher for legally owned backup copies of your own softwar
 
 ## Download and release status
 
-**0.2 Beta is a prerelease for Windows 10/11 x64. An NVIDIA GPU is required.**
+**0.2.1 Beta is a prerelease for Windows 10/11 x64. An NVIDIA GPU is required.**
 
-[Download the 0.2 Beta installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.2-beta/GTee-Clubhouse-0.2-Beta-Setup.exe) · [Release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.2-beta)
+[Download the 0.2.1 Beta installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.2.1-beta/GTee-Clubhouse-0.2.1-Beta-Setup.exe) · [Release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.2.1-beta)
 
-Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, and controls for your mouse or trackball. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.2 Beta requirements and installation notes](RELEASE-NOTES-BETA-0.2.md) before installing.
+Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, and controls for your mouse or trackball. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.2 Beta requirements and installation notes](RELEASE-NOTES-BETA-0.2.md) and the [0.2.1 Beta notes](RELEASE-NOTES-BETA-0.2.1.md) before installing.
 
-The refreshed 0.2 installer fixes updates blocked by previously completed game sessions and adds more detailed support logging for stutter and installation failures.
+0.2.1 Beta reduces stutter in the newer LIVE editions, fixes several problems that stopped games from starting or importing, and installs over 0.2 Beta without removing your games or settings.
 
 Start with the [setup guide below](#getting-started) to install Clubhouse and add your games.
 
@@ -95,7 +95,7 @@ You do not need to install PostgreSQL separately, create database users, configu
 
 ### 1. Install Clubhouse
 
-Download and run **GTee-Clubhouse-0.2-Beta-Setup.exe**. Choose an empty, writable folder for Clubhouse and follow the installer prompts.
+Download and run **GTee-Clubhouse-0.2.1-Beta-Setup.exe**. Choose an empty, writable folder for Clubhouse and follow the installer prompts.
 
 Allow at least 8 GB free for installation, plus room for game files, Play Cache, databases and backups. Setup also uses temporary space on the Windows drive. On exFAT, setup warns that temporary private sessions use Local AppData on the Windows drive; settings and saved databases remain in the chosen installation folder.
 
