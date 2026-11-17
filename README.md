@@ -25,22 +25,40 @@ GTee Clubhouse brings decades of arcade golf into one visual library. Browse you
 
 GTee Clubhouse is a launcher for legally owned backup copies of your own software and games. No Incredible Technologies (IT) game software, game source code, or game data is distributed with this launcher, and no GT game source code is used to build it. We do not provide any games or game data. All backups are supplied by the user and must correspond to software and games they legally own; users are responsible for ensuring they have the right to use their backups.
 
+## New: every Golden Tee game on AMD Radeon graphics
+
+**For the first time, every Golden Tee game is supported on AMD GPU hardware.** The 0.3 Beta pre-release runs the whole library on AMD Radeon graphics as well as NVIDIA, with the same speed-ups, no changes to your game files and no extra setup.
+
+[Download the 0.3 Beta pre-release installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.3-beta/GTee-Clubhouse-0.3-Beta-Setup.exe) · [0.3 Beta release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.3-beta)
+
+Also new in 0.3 Beta:
+
+- **Reset stuck session** in Session & diagnostics unlocks Play without reinstalling. Your games, settings and saved progress are kept.
+- Fixed: a game loaded, went back to the menu, and then the Play button stayed locked.
+- Fixed: games did not start on Windows set to a language other than English.
+- With Custom resolution off, the game uses your computer's display resolution.
+- Laptops with two graphics adapters: Clubhouse asks Windows to run games on the high-performance one.
+- Setup can update, repair or uninstall most locked installations when no game is running.
+- **Back up all databases** also backs up databases that still match the original.
+
+0.3 Beta is a pre-release for testing and installs over 0.1, 0.2, 0.2.1 or 0.2.2 Beta without removing your games or settings. It includes everything in 0.2.2.
+
 ## Download and release status
 
-**0.2.2 Beta is a prerelease for Windows 10/11 x64. An NVIDIA GPU is required.**
+**0.2.2 Beta is the current release for Windows 10/11 x64. It requires an NVIDIA GPU; for AMD Radeon graphics use the 0.3 Beta pre-release above.**
 
 [Download the 0.2.2 Beta installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.2.2-beta/GTee-Clubhouse-0.2.2-Beta-Setup.exe) · [Release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.2.2-beta)
 
 Includes a welcome screen and guided tour, Classic and Modern setup shortcuts, and controls for your mouse or trackball. Games, ROMs, CHDs and original databases are supplied separately. Read the [0.2 Beta requirements and installation notes](RELEASE-NOTES-BETA-0.2.md) and the [0.2.1 Beta](RELEASE-NOTES-BETA-0.2.1.md) and [0.2.2 Beta notes](RELEASE-NOTES-BETA-0.2.2.md) before installing.
 
-0.2.2 Beta restores the 3D grass in the rough in LIVE 2025 Nighthawk, LIVE TITAN 2023-2024, 2025 and 2026, and PGA TOUR 2025 and 2026. It includes everything in 0.2.1 (less stutter in the newer LIVE editions and fixes for games that would not start or import) and installs over 0.2 or 0.2.1 Beta without removing your games or settings.
+0.2.2 Beta restores the 3D grass in the rough in LIVE 2025 Nighthawk and LIVE TITAN 2023-2024, 2025 and 2026. It includes everything in 0.2.1 (less stutter in the newer LIVE editions and fixes for games that would not start or import) and installs over 0.2 or 0.2.1 Beta without removing your games or settings.
 
 Start with the [setup guide below](#getting-started) to install Clubhouse and add your games.
 
 ## Hardware requirements
 
 - **Windows 10/11 x64.**
-- **NVIDIA GPU required. AMD and Intel graphics are not supported in this release.**
+- **0.3 Beta pre-release: NVIDIA or AMD Radeon GPU. 0.2.2 Beta: NVIDIA GPU. Intel graphics are not supported.**
 - At least 8 GB free for Clubhouse, plus space for your games, Play Cache, databases and backups. Setup also needs temporary space on the Windows drive.
 
 ## Main features
@@ -153,7 +171,7 @@ Do not use **Remove game** as an update or repair shortcut: it can remove Clubho
 
 - **A Modern game will not add:** Confirm that the full original folder matches a supported version and includes the required database backup and supporting content.
 - **A Classic game is unavailable:** Check its ROM, parent/BIOS, and CHD requirements in **MAME / Classics**, then select **Refresh**.
-- **Play is blocked by a previous session:** Open **Session & diagnostics**, use **Stop background session**, and let cleanup finish before trying again.
+- **Play is blocked by a previous session:** Open **Session & diagnostics** and use **Clear stuck session**. In 0.3 Beta, if Play stays locked, use **Reset stuck session**; your games, settings and saved progress are kept.
 - **Controls or graphics need adjustment:** Start with the documented defaults, check the selected input device and per-game overrides, and include your edition and settings when reporting a problem.
 - **You need help:** Read [SUPPORT.md](SUPPORT.md), check [existing issues](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/issues), and include your Clubhouse version, Windows version, game edition, and steps to reproduce the problem.
 
