@@ -29,7 +29,7 @@ GTee Clubhouse is a launcher for legally owned backup copies of your own softwar
 
 **For the first time, every Golden Tee game is supported on AMD GPU hardware.** The 0.3 Beta pre-release runs the whole library on AMD Radeon graphics as well as NVIDIA, with the same speed-ups, no changes to your game files and no extra setup.
 
-[Download the 0.3 Beta pre-release installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.3-beta/GTee-Clubhouse-0.3-Beta-Setup.exe) · [0.3 Beta release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.3-beta)
+[Download the 0.3 Beta pre-release installer](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/download/v0.3.0-beta/GTee-Clubhouse-0.3-Beta-Setup.exe) · [0.3 Beta release notes, checksum and source archive](https://github.com/GTeeClubhouse/gtee-clubhouse-releases/releases/tag/v0.3.0-beta)
 
 Also new in 0.3 Beta:
 
